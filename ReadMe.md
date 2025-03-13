@@ -11,5 +11,7 @@ general instruction to use the app:
 
         -when user want to remove the task that exist, you can use the "delete task" button
 
+        - the user can take advantage of the edit section to correct if there was an error during adding the to list.
+
 
 notice: it is not possible to add the empty task 

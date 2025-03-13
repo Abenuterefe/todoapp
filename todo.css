@@ -90,3 +90,12 @@ li:hover {
     border-radius: 5px;
     cursor: pointer;
 }
+.edit {
+    background-color: rgb(104, 231, 114);
+    padding: 8px 12px;
+    color: #faf5f5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
