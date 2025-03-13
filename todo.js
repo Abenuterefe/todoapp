@@ -30,7 +30,7 @@ function deleteTask(event){
 }
 function editTask(event){
     const task = event.target.parentElement;
-    input.value = task.textContent;
+    input.value = task.querySelector("div").textContent;
     task.remove();
 }
 
