@@ -7,17 +7,13 @@
     <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-
+   
     <div class="todo-container">
         <h1>Todo List</h1>
-
-        <!-- Create a flex container for input and button -->
         <div class="input-container">
-            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <input type="text" id="taskInput" placeholder="Enter a new task" maxlength="50">
             <button class="btn" id="addBtn" onclick="addTask()">Add Task</button>
         </div>
-
-        <!-- Display tasks -->
         <ul id="taskList"></ul>
     </div>
 
